@@ -1,0 +1,107 @@
+
+
+nav a{
+    position: absolute;
+    left: -110px;
+    transition:0.3s ;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left:0px;
+}
+.about{
+    top:20px;
+    background-color: #ad0909; 
+}
+.blog{
+	
+    top:80px;
+    background-color:#21f372 ; 
+}
+.projects{
+    top:140px;
+    background-color: #c4d10a; 
+}
+.contact{
+    top:200px;
+    background-color: #4141c3; 
+}
+body{
+  background-color: #13af90;
+}
+h1{
+font-size: 70px;
+text-align: center;
+color: #0d4eff;
+}
+.posts{
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+article {
+    color:rgb(246, 255, 0);
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.page {
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+.nb_news {
+    color: rgb(234, 219, 0);
+}
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid rgb(3, 238, 238);
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.page {
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+.post:hover{
+box-shadow: 0 5px 5px 5px rgb(0, 0, 0);
+}
+.post{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eeee{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
